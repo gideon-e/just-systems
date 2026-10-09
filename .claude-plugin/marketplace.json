@@ -1,0 +1,14 @@
+{
+  "name": "just-systems",
+  "owner": {
+    "name": "Gideon Esakoff"
+  },
+  "plugins": [
+    {
+      "name": "just-systems",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Skills from the Just Systems legal software factory: absorb."
+    }
+  ]
+}
