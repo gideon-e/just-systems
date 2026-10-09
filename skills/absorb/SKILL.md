@@ -81,8 +81,8 @@ the checker, then continue.
    - **Off target** (another provider's model, an older Claude generation, a product the
      user does not use): say so and ask whether to continue.
    - **Secondary source on how a Claude feature works:** check the claim against current
-     Anthropic documentation. If the docs disagree, the docs win and you say so. If you
-     cannot check it, mark it Unverified; it is filed only if the user says so, as "reported
+     Anthropic documentation. If the docs disagree, the docs win: mark it Refuted and
+     say which page. If you cannot check it, mark it Unverified; it is filed only if the user says so, as "reported
      by <source>".
    - **Opinion or technique** (how to phrase a skill, when to use a subagent): no
      verification needed, but it must earn its place against what the repo already says.
@@ -98,6 +98,7 @@ the checker, then continue.
    | Refines | The repos say something close, less precisely | Edit that sentence in place |
    | New | Nothing in the repos speaks to it | Add it to its home |
    | Contradicts | The repos say otherwise | Never overwrite. Quote both; the user decides |
+   | Refuted | A factual claim the docs show is wrong | Do not file; name the page that refutes it |
    | Unverified | A factual claim you could not check | Leave out unless the user says file it |
    | Needs a build | It calls for a capability, not a sentence | Draft an issue naming the proposed home |
 
@@ -112,7 +113,8 @@ the checker, then continue.
    - Use your own words. Quote only a short phrase whose exact wording matters, and
      attribute it. Sources are usually copyrighted, and these repos are often public.
    - Cite in the format `homes.md` gives, once per source per file. Several sentences from
-     one source in one file go together under a single citation.
+     one source in one file sit together, with the citation on its own line after the group
+     so it plainly covers all of them.
    - A mirror row is never edited; its claims go to the layered file beside it. A protected
      row changes only with the user's yes for that specific edit.
    - Commit by the repo's write rule in `homes.md`, which defers to the repo's own
@@ -149,7 +151,7 @@ Chat text, ending in this receipt:
 
 ```
 Absorbed: <title>, <author>, <publisher>, <date>
-Claims: <n> new, <n> refined, <n> covered, <n> contradicted, <n> unverified, <n> builds
+Claims: <n> new, <n> refined, <n> covered, <n> contradicted, <n> refuted, <n> unverified, <n> builds
 
 | # | Claim | Disposition | Landed |
 |---|---|---|---|

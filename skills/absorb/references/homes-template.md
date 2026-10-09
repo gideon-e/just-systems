@@ -70,10 +70,14 @@ Source: <Publisher>, "<Title>", <Author>, <date> (<URL>).
 Condensed <YYYY-MM-DD>. Quoted phrases are the source's words; the rest is paraphrase.
 ```
 
-A sentence or two added inside an existing file carries one trailing parenthetical, so the
-claim is findable the next time the same source turns up:
+Sentences added inside an existing file sit together, followed by one citation on its own
+line, not indented under the last sentence, so it reads as covering the whole group and is
+findable the next time the same source turns up:
 
 ```
+- <first sentence from the source>
+- <second sentence from the source>
+
 (Source: <Publisher>, "<Title>", <Author>, <date>, <URL>. Absorbed <YYYY-MM-DD>.)
 ```
 
