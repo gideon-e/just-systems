@@ -1,0 +1,19 @@
+# Homes
+## Repos
+| Repo | Path | What it holds | Checks |
+|---|---|---|---|
+| `guide` | `__GUIDE__` | House guidance | |
+
+## The table
+| Kind of idea | Home | What that file is for (quote its header) | Protected? |
+|---|---|---|---|
+| How a skill body should be written | `guide/docs/build-guide.md` | "how much a skill body should say, and how to say it" | |
+| Security, permissions, untrusted content | `guide/references/security.md` | "rules that keep untrusted content from steering the agent" | yes |
+
+## The write rule, per repo
+| Repo | Docs and references | Anything that ships to users |
+|---|---|---|
+| `guide` | commit straight to main | n/a |
+
+## Citation format
+`(Source: <Publisher>, "<Title>", <Author>, <date>, <URL>. Absorbed <YYYY-MM-DD>.)`

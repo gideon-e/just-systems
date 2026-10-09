@@ -3,10 +3,12 @@
   "owner": {
     "name": "Gideon Esakoff"
   },
+  "metadata": {
+    "description": "Claude Code skills from Just Systems, a legal software factory."
+  },
   "plugins": [
     {
       "name": "just-systems",
-      "version": "0.1.0",
       "source": "./",
       "description": "Skills from the Just Systems legal software factory: absorb."
     }
