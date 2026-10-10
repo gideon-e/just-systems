@@ -169,6 +169,8 @@ not cloned), do steps 1 to 3 and deliver the plan as a memo. Do not edit what yo
 
 ## Not this skill
 
+- Adapting and installing a working repository, skill, or tool. Use the companion
+  `absorb-process` for clone → inspect → review → distill → improve → simplify → install.
 - Filing a downloaded document into a project or client folder.
 - Summarizing a source when the user does not want a file changed.
 - Deciding whether an idea deserves a new skill. It drafts the issue and stops.

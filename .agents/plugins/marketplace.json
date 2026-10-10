@@ -1,0 +1,12 @@
+{
+  "name": "just-systems",
+  "interface": { "displayName": "Just Systems" },
+  "plugins": [
+    {
+      "name": "just-systems",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Developer Tools"
+    }
+  ]
+}
