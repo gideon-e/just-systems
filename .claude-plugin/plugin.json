@@ -1,7 +1,7 @@
 {
   "name": "just-systems",
-  "version": "0.1.1",
-  "description": "Skills from the Just Systems legal software factory. First up: absorb, which writes the ideas worth keeping from a source into the file Claude reads the next time they matter, cited.",
+  "version": "0.2.0",
+  "description": "Absorb useful ideas into the instructions that own them; absorb-process turns a seed repository or tool into a reviewed, refined, verified installation.",
   "author": {
     "name": "Gideon Esakoff"
   },
