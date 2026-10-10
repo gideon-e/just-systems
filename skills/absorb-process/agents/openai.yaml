@@ -1,0 +1,4 @@
+interface:
+  display_name: "Absorb Process"
+  short_description: "Review, refine, and install a seed repository"
+  default_prompt: "Use $absorb-process to clone, inspect, review, distill, improve, simplify, and install this seed: <repository URL>."
