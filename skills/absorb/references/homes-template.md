@@ -3,7 +3,8 @@
 
 The routing table for `absorb`. This is the blank template. Do not fill it in here: plugin
 updates replace this file. Copy it to `.claude/absorb/homes.md` in your project (shared
-with your team) or ask absorb to run Setup, which drafts one from your repos for you.
+with your team) or ask absorb to run Setup, which drafts one from your repos for you. Small
+jobs (a few lessons headed for one file) do not need this table; broad sweeps do.
 
 Write each row by reading the target file's own header, and quote what the file says it is
 for in the third column. Read a row's file before editing it; homes move, and a stale row

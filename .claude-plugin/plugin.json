@@ -1,7 +1,7 @@
 {
   "name": "just-systems",
-  "version": "0.1.0",
-  "description": "Skills from the Just Systems legal software factory. First up: absorb, which files an outside source about Claude or agent design into the repo file that already owns that ground, cited.",
+  "version": "0.1.1",
+  "description": "Skills from the Just Systems legal software factory. First up: absorb, which writes the ideas worth keeping from a source into the file Claude reads the next time they matter, cited.",
   "author": {
     "name": "Gideon Esakoff"
   },

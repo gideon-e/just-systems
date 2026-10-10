@@ -59,6 +59,9 @@ def main(argv):
     for header, rows in tables(text):
         if header[:2] == ["repo", "path"]:
             for row in rows:
+                if len(row) < 2:
+                    problems.append(f"repo row has fewer than 2 cells: {row}")
+                    continue
                 name, rpath = unquote(row[0]), unquote(row[1])
                 if PLACEHOLDER.search(name) or PLACEHOLDER.search(rpath):
                     problems.append(f"repo row still a placeholder: {row[0]} | {row[1]}")
