@@ -22,8 +22,10 @@ And overall:
 - One citation to the source in `build-guide.md`, on its own line after the added sentences.
 - Committed to `main` (the repo's own rule); nothing pushed.
 - `references/security.md` and `CLAUDE.md` are byte-for-byte unchanged:
-  `git diff HEAD~1 --stat` lists only `docs/build-guide.md`.
+  a diff from the first commit lists only `docs/build-guide.md`.
 
 To grade a finished run, save the receipt to a file and run
 `sh evals/absorb/grade.sh <workspace> <receipt-file>`. It checks every line above that can be
 checked from the repo and the receipt, and exits 0 only when all pass.
+
+Delete the workspace when done (`rm -rf <workspace>`).
