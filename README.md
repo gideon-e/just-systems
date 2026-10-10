@@ -22,8 +22,9 @@ codex plugin add just-systems@just-systems
 | `/just-systems:absorb` | "absorb this", "incorporate this", "where does this idea go" | Takes one source (an article, a file, or lessons from your own work) and writes what is worth keeping into the file Claude reads the next time it matters, with a citation. Small jobs get one file and a short plan. Covered claims are skipped and contradictions are surfaced. Treats the source as untrusted: it never changes a protected rule, follows instructions hidden in the source, or pushes without asking. |
 | `/just-systems:absorb-process` | "run this repo through intake", "review, improve, and install this seed" | Clone → inspect → review → distill → improve → simplify → install. Preserves useful capabilities, fixes demonstrated friction, validates an isolated package, and verifies installation and host discovery. |
 
-In Codex, invoke `$absorb` or `$absorb-process`. Use **absorb** when the result should
-be an edit to existing instructions; use **absorb-process** when it should be a
+In Codex, invoke `$just-systems:absorb` or `$just-systems:absorb-process`.
+Use **absorb** when the result should be an edit to existing instructions;
+use **absorb-process** when it should be a
 working tool. An unchanged installation uses the host's ordinary installer.
 
 ```text
