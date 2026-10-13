@@ -1,8 +1,5 @@
 # just-systems
 
-<img width="1440" height="1000" alt="image" src="https://github.com/user-attachments/assets/246905b9-ac23-4a99-a0a4-49ff3b58398b" />
-
-
 ## Skills
 
 Both skills live in the **just-systems** plugin. Install it in Claude Code:
