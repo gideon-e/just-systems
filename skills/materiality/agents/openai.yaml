@@ -1,0 +1,4 @@
+interface:
+  display_name: "Materiality"
+  short_description: "Rank legal issues by how far each moves a named decision"
+  default_prompt: "Use $materiality to rank what matters here and what to set aside: <the problem>."
