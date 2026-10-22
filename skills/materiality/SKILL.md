@@ -25,7 +25,8 @@ selected for contested doctrine, and exams pay for every issue spotted. What a s
 weighs is mostly unwritten: verdicts, settlements, what judges skim past, what a partner
 cuts. So the default weights **salience** (text, doctrine, heat), treats issues as equal
 and independent, and keeps everything because cutting feels riskier than listing. Weight by
-**swing** instead, and cut.
+**swing** instead, and cut. Salience counts only as far as the decider runs on it, and a
+jury, a mediator, or a hurried reader often does.
 
 ## Frame first
 
@@ -70,12 +71,18 @@ otherwise proceed and mark that piece **assumed**.
 - **Proof, process, time.** A fact matters only if it can be proved, in this forum, before
   the deadline, at a cost the stake justifies. **Perishable** items (a witness leaving, a
   deadline, evidence that can be lost) rank by the cost of waiting. Irreversible before
-  reversible.
+  reversible: an argument that loses today may still need preserving, because waiver is
+  permanent.
+- **Burden and review.** Who must prove it, to what standard, and how much deference the
+  ruling gets above. The same fact weighs differently when the other side carries the
+  burden, and a ruling reviewed for discretion is won or lost below.
 - **Disputed, ambiguous, unknown.** Disputed goes to the factfinder on credibility.
   Ambiguous means the rule or the meaning is unsettled. Unknown means find out, and an
   unknown ranks by the value of the answer against the cost of getting it.
 - **Both seats.** Rank from the decider's seat and from the opponent's. What the other side
   fears is material to settlement whether or not it would win.
+- **Story.** A fact that fits the theme the decider will carry into the room can outrank a
+  stronger fact that fits nowhere.
 
 When the swing sits outside the lawyer's focus, say so in one sentence at the top. That is
 the most useful sentence this skill writes.
