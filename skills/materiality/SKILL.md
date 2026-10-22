@@ -18,10 +18,10 @@ tool for the lawyer's strategy: it ranks, and the lawyer decides. It does not as
 for the client, draft, or stand in for research. The ranking is strategy, so it stays with
 the lawyer's work product.
 
-Materiality ranks issues that are already identified; spotting them is a separate step.
-Handed raw facts, list the issues plainly first and say the list is the lawyer's to check.
-The ranking then sets effort: time, pages, and attention go where the swing is, and the
-lawyer chooses among courses of action from there.
+It works on whatever it is given. Handed a list of issues, rank them. Handed raw facts,
+name the issues plainly first, then rank; spotting and ranking are different acts, so keep
+the list visible for the lawyer to check. The ranking says where time, pages, and
+attention should go.
 
 ## Why the default reads junior
 
