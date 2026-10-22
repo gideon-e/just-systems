@@ -18,6 +18,11 @@ tool for the lawyer's strategy: it ranks, and the lawyer decides. It does not as
 for the client, draft, or stand in for research. The ranking is strategy, so it stays with
 the lawyer's work product.
 
+Materiality ranks issues that are already identified; spotting them is a separate step.
+Handed raw facts, list the issues plainly first and say the list is the lawyer's to check.
+The ranking then sets effort: time, pages, and attention go where the swing is, and the
+lawyer chooses among courses of action from there.
+
 ## Why the default reads junior
 
 Models learn law from what gets written: opinions, treatises, exams. Published opinions are
@@ -44,6 +49,12 @@ So materiality belongs to a frame, never to an item alone. Set the frame before 
   jury, an arbitrator, a mediator, the other side's carrier, the client. The same fact
   ranks differently for each. Use the lawyer's decision when given; otherwise take the next
   irreversible one and say so.
+- **The questions the jury will answer.** Every matter is priced against its end: the
+  questions the instructions and verdict form will put to the jury, or to the judge or
+  arbitrator where there is none. An item matters
+  as far as it moves an answer to one of those questions, or decides whether the case
+  reaches them. A settlement, a motion, and a discovery fight are each a forecast of those
+  answers.
 - **Truth.** What most likely happened, apart from what can be argued. A position the truth
   will not hold costs credibility on everything else.
 - **Constraints.** Pages, words, minutes, money, deadlines, forum rules, the client's
@@ -62,7 +73,8 @@ otherwise proceed and mark that piece **assumed**.
   swing: an item that is easy to argue or easy for the decider to rule on still ranks by
   its odds.
 - **Total mix.** Rank the margin, not the item. Cumulative proof ranks low however vivid; a
-  single point of failure ranks high however dull.
+  single point of failure ranks high however dull. A point the other side has already
+  conceded or cured has no margin left: set it aside.
 - **Gates.** Map what depends on what. A gate (forum, arbitration, limitations, standing, a
   dispositive element) multiplies everything behind it; an issue behind a gate is only as
   material as the gate lets it be, so resolve or price the gate first. Interdependent items
