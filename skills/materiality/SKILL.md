@@ -112,8 +112,9 @@ Next: <three actions at most, ordered by swing per hour>   (only when a next ste
 Set aside: <item> — <why it does not move the decision>.   (one line each)
 ```
 
-The ranking is the deliverable; one line per item, and depth only when asked. When the
-answer spends the whole budget, say in one line why the last point earns its space. Every item
-names a fact from the record or is marked **assumed**. Authority not checked this session
-carries `[unverified]`. When another skill or agent calls this one, return the block alone;
-the caller decides what to do with it.
+The ranking is the deliverable: items in swing order, so the crux is always item 1; one
+line per item, and depth only when asked. When the answer spends the whole budget, say in
+one line why the last point earns its space. Every item names a fact from the record or is
+marked **assumed**. Authority not checked this session carries `[unverified]`. When
+another skill or agent calls this one, return the block alone; the caller decides what to
+do with it.

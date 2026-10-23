@@ -9,8 +9,10 @@ Sonnet on 2026-10-22. Grade by hand: each line below is pass or fail.
 Without the skill, a Sonnet run led with E, the fee-splitting argument, and filled all ten
 pages. Acme's motion already offers to pay the fees, so E is close to moot. With the first
 draft of the skill, Haiku led with D because the docket decides it cleanly; the line "Ease
-is not swing" fixed that. With the current skill, Haiku and Sonnet pass lines 1 to 4 and 6;
-both still fill all ten pages without saying why, so line 5 is the one to watch.
+is not swing" fixed that. Two more lines fixed the rest: a full budget
+must say why its last point earns its space, and the crux is always item 1. On
+2026-10-23 one Sonnet run and two Haiku runs passed every line; an earlier Haiku run had
+ranked D above A, so line 4 is the one to watch on small models.
 
 | # | Expected | Why it is there |
 |---|---|---|
