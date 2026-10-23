@@ -96,6 +96,10 @@ otherwise proceed and mark that piece **assumed**.
 - **Story.** A fact that fits the theme the decider will carry into the room can outrank a
   stronger fact that fits nowhere.
 
+When two items are close on swing, break the tie in this order: the gate before what sits
+behind it, the irreversible before the reversible, the cheaper to act on before the
+dearer.
+
 When the swing sits outside the lawyer's focus, say so in one sentence at the top. That is
 the most useful sentence this skill writes.
 

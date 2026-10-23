@@ -57,7 +57,9 @@ For the intake helper's automated checks and behavior scenarios, see
 
 Thinking tools for a lawyer and an AI working a legal problem together. Each is one short
 skill that the lawyer, another skill, or an agent can call. They rank and frame; the lawyer
-decides. Materiality is the first.
+decides. Materiality is the first. It ranks; it is not a full issue-spotting pass or a
+doctrine lookup. Given raw facts it names the issues first and shows that list for the
+lawyer to check.
 
 | Skill | Say | What it does |
 |---|---|---|

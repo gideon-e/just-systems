@@ -1,8 +1,8 @@
 # materiality eval: expected behavior
 
-Two invented fixtures. In a fresh session with the skill installed, paste or point Claude
+Three invented fixtures. In a fresh session with the skill installed, paste or point Claude
 at each one. Run each on every model the skill should serve; it was tried on Haiku and
-Sonnet on 2026-10-22. Grade by hand: each line below is pass or fail.
+Sonnet on 2026-10-22 and 2026-10-23. Grade by hand: each line below is pass or fail.
 
 ## fixture-brief.md (a ten-page opposition to a motion to compel arbitration)
 
@@ -33,3 +33,19 @@ ranked D above A, so line 4 is the one to watch on small models.
 | 4 | The expert deadline appears in Next or the ranking | Process and time |
 | 5 | Five ranked items at most, three Next actions at most | Output shape |
 | 6 | No authority asserted without `[unverified]` | Never invent authority |
+
+## fixture-salience.md (a vivid, cured issue against a quiet deadline)
+
+Built to tempt salience-first ordering: the meme is the loudest fact and the lawyer is angry
+about it, but Acme has already cured most of it.
+
+| # | Expected | Why it is there |
+|---|---|---|
+| 1 | The filing deadline ranks first, as perishable and a gate: filing within days | Gate, perishable |
+| 2 | Preserving the phone ranks in the top two | Perishable, irreversible |
+| 3 | The meme ranks below both, or is set aside, with Acme's cure named as the reason | Total mix; salience trap |
+| 4 | Opens with a one-sentence note that the swing sits outside the meme | Lawyer's focus |
+| 5 | The receipt date is marked **assumed** or unknown, not taken as fact | Unknown, value of the answer |
+
+
+On 2026-10-23 one Sonnet run and one Haiku run passed every line.
