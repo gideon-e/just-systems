@@ -23,7 +23,7 @@ codex plugin add just-systems@just-systems
 | `/just-systems:dewey-builder` | "set up a library", "build me a Dewey" | Asks four questions one at a time, looks at your folder and tools, writes the library's files, and proves it answers a question. Then the one rule: drop anything into `inbox/` and ask. Works in Claude Code and Cowork. |
 | `/just-systems:dewey` | "/dewey <question>", "keep this" | Answers from the library in four hops (index, topic, source note, source) with the source path, and keeps new material. The `dewey` agent does the describing and linking. |
 
-In Codex, invoke `$just-systems:absorb` or `$just-systems:absorb-process`.
+In Codex, invoke `$just-systems:absorb`, `$just-systems:absorb-process`, or `$just-systems:materiality`.
 Use **absorb** when the result should be an edit to existing instructions;
 use **absorb-process** when it should be a
 working tool. An unchanged installation uses the host's ordinary installer.
@@ -52,5 +52,17 @@ To check the skill's behavior against a booby-trapped source, see
 
 For the intake helper's automated checks and behavior scenarios, see
 [evals/absorb-process/EXPECTED.md](evals/absorb-process/EXPECTED.md).
+
+## Legal strategy
+
+Thinking tools for a lawyer and an AI working a legal problem together. Each is one short
+skill that the lawyer, another skill, or an agent can call. They rank and frame; the lawyer
+decides. Materiality is the first. It ranks; it is not a full issue-spotting pass or a
+doctrine lookup. Given raw facts it names the issues first and shows that list for the
+lawyer to check.
+
+| Skill | Say | What it does |
+|---|---|---|
+| `/just-systems:materiality` | "what matters here", "rank these issues", "what should I focus on" | Ranks the issues, facts, arguments, and procedural moves in a legal problem by how far each would move a named decision, and says what to set aside. Frames first (goal, audience, truth, constraints such as page limits), then ranks by swing, gates, total mix, and perishability. A thinking tool for the lawyer; other skills and agents can call it. Expected behavior: [evals/materiality/EXPECTED.md](evals/materiality/EXPECTED.md). |
 
 MIT licensed. See [LICENSE](LICENSE).
