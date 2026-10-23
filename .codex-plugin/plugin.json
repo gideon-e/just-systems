@@ -1,6 +1,6 @@
 {
   "name": "just-systems",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Absorb useful ideas into the instructions that own them; absorb-process turns a seed repository or tool into a reviewed, refined, verified installation; materiality ranks the issues in a legal problem by how far each moves the decision.",
   "author": { "name": "Gideon Esakoff" },
   "repository": "https://github.com/gideon-e/just-systems",
