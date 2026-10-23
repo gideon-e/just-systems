@@ -10,7 +10,7 @@
     {
       "name": "just-systems",
       "source": "./",
-      "description": "Paired intake skills: absorb for ideas and lessons; absorb-process for reviewing, refining, and installing working tools."
+      "description": "absorb for ideas and lessons; absorb-process for installing working tools; dewey-builder and dewey for a library Claude answers from."
     }
   ]
 }

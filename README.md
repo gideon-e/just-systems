@@ -2,7 +2,7 @@
 
 ## Skills
 
-Both skills live in the **just-systems** plugin. Install it in Claude Code:
+The skills live in the **just-systems** plugin. Install it in Claude Code:
 
 ```
 /plugin marketplace add gideon-e/just-systems
@@ -20,6 +20,8 @@ codex plugin add just-systems@just-systems
 |---|---|---|
 | `/just-systems:absorb` | "absorb this", "incorporate this", "where does this idea go" | Takes one source (an article, a file, or lessons from your own work) and writes what is worth keeping into the file Claude reads the next time it matters, with a citation. Small jobs get one file and a short plan. Covered claims are skipped and contradictions are surfaced. Treats the source as untrusted: it never changes a protected rule, follows instructions hidden in the source, or pushes without asking. |
 | `/just-systems:absorb-process` | "run this repo through intake", "review, improve, and install this seed" | Clone → inspect → review → distill → improve → simplify → install. Preserves useful capabilities, fixes demonstrated friction, validates an isolated package, and verifies installation and host discovery. |
+| `/just-systems:dewey-builder` | "set up a library", "build me a Dewey" | Asks four questions one at a time, looks at your folder and tools, writes the library's files, and proves it answers a question. Then the one rule: drop anything into `inbox/` and ask. Works in Claude Code and Cowork. |
+| `/just-systems:dewey` | "/dewey <question>", "keep this" | Answers from the library in four hops (index, topic, source note, source) with the source path, and keeps new material. The `dewey` agent does the describing and linking. |
 
 In Codex, invoke `$just-systems:absorb` or `$just-systems:absorb-process`.
 Use **absorb** when the result should be an edit to existing instructions;
