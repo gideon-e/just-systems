@@ -48,4 +48,4 @@ about it, but Acme has already cured most of it.
 | 5 | The receipt date is marked **assumed** or unknown, not taken as fact | Unknown, value of the answer |
 
 
-On 2026-10-23 one Sonnet run and one Haiku run passed every line.
+On 2026-10-23 one Sonnet run and two Haiku runs passed every line.
