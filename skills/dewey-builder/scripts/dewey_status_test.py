@@ -49,9 +49,9 @@ class StatusTest(Base):
 
     def test_alias_resolves(self):
         make(self.root, "notes/target.md",
-             '---\ntitle: "Target"\naliases: [Other Name, "Third"]\nsummary: "s"\n---\n')
+             '---\ntitle: "Target"\naliases: [Other Name, "Third", "Smith, John"]\nsummary: "s"\n---\n')
         make(self.root, "notes/src.md",
-             '---\ntitle: "Src"\nsummary: "s"\n---\n[[other  name]] [[THIRD|lbl]]\n')
+             '---\ntitle: "Src"\nsummary: "s"\n---\n[[other  name]] [[THIRD|lbl]] [[Smith, John]]\n')
         _, out = run(self.root, "status")
         self.assertTrue(out.startswith("inbox 0 · undescribed 0 · unnoted 0 · dead links 0"))
 

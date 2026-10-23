@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Library health check (status) and inbox lander (land). Stdlib only."""
+import csv
 import re
 import sys
 from datetime import date
@@ -31,7 +32,8 @@ def front_matter(path):
         key, _, val = line.partition(":")
         val = val.strip()
         if val.startswith("[") and val.endswith("]"):
-            fm[key.strip()] = [unquote(x) for x in val[1:-1].split(",") if x.strip()]
+            items = next(csv.reader([val[1:-1]], skipinitialspace=True), [])  # commas inside quotes stay
+            fm[key.strip()] = [unquote(x) for x in items if x.strip()]
         else:
             fm[key.strip()] = unquote(val)
     return fm
@@ -94,8 +96,9 @@ def land(root):
         name = free_name(source, f.name)
         f.rename(source / name)
         stem = free_name(notes, Path(f.name).stem + ".md")[:-3]
+        q = lambda v: v.replace('"', "'")  # keep the quoted YAML valid
         (notes / f"{stem}.md").write_text(
-            f'---\ntitle: "{stem}"\nsource: "source/{name}"\norigin: "{origin}"\n'
+            f'---\ntitle: "{q(stem)}"\nsource: "source/{q(name)}"\norigin: "{q(origin)}"\n'
             f'landed: "{date.today().isoformat()}"\nsummary: ""\n'
             f"key_terms: []\ntopics: []\nentities: []\n---\n", encoding="utf-8")
         n += 1
