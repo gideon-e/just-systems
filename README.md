@@ -1,11 +1,5 @@
 # just-systems
 
-Skills that help a lawyer and an AI agent work a legal problem together.
-
-Each skill is a plain folder under `skills/` in the open [Agent Skills](https://agentskills.io)
-format, so any agent that reads skills can use it. Install `dewey` and `dewey-builder` together;
-they share files.
-
 ## Install
 
 - **Claude Code:** `/plugin marketplace add gideon-e/just-systems`, then
