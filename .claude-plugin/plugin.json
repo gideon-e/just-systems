@@ -1,0 +1,10 @@
+{
+  "name": "just-systems",
+  "version": "1.1.0",
+  "description": "Eight skills for lawyers working with Claude in a folder: desk, file, issue-spotter, materiality, dewey-builder, dewey, absorb, absorb-process.",
+  "author": {
+    "name": "Gideon Esakoff"
+  },
+  "repository": "https://github.com/gideon-e/just-systems",
+  "license": "MIT"
+}
