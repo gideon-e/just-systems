@@ -1,8 +1,6 @@
 # just-systems
 
-Skills that help a lawyer and an AI agent work a legal problem together. The agent does the
-legwork: it spots issues, ranks what matters, files the paper, and keeps the library. The
-lawyer makes the decisions.
+Skills that help a lawyer and an AI agent work a legal problem together.
 
 Each skill is a plain folder under `skills/` in the open [Agent Skills](https://agentskills.io)
 format, so any agent that reads skills can use it. Install `dewey` and `dewey-builder` together;
@@ -15,8 +13,6 @@ they share files.
 - **Codex:** `codex plugin marketplace add gideon-e/just-systems`, then
   `codex plugin add just-systems@just-systems`.
 - **Any other agent:** copy the folders from `skills/` into the agent's skills folder.
-
-Then ask in plain words. The agent picks the skill that fits.
 
 ## Get started
 
