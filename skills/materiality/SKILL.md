@@ -18,6 +18,9 @@ tool for the lawyer's strategy: it ranks, and the lawyer decides. It does not as
 for the client, draft, or stand in for research. The ranking is strategy, so it stays with
 the lawyer's work product.
 
+Answer in the shape under [Output](#output) and nothing else: no tables, headings, or page
+plans outside it, unless the lawyer asks for more.
+
 It works on whatever it is given. Handed a list of issues, rank them. Handed raw facts,
 run issue-spotter's pass first, then rank; spotting and ranking are different acts, so keep
 the list visible for the lawyer to check. The ranking says where time, pages, and
@@ -96,11 +99,15 @@ otherwise proceed and mark that piece **assumed**.
 - **Story.** A fact that fits the theme the decider will carry into the room can outrank a
   stronger fact that fits nowhere.
 
-When two items are close on swing, break the tie in this order: the gate before what sits
-behind it, the irreversible before the reversible, the cheaper to act on before the
-dearer.
+A gate outranks everything behind it, however urgent the rest: when one item decides the
+forum, limitations, or whether the case survives, it is item 1. A perishable item behind
+the gate ranks next, and its action leads Next.
 
-When the swing sits outside the lawyer's focus, say so in one sentence at the top. That is
+When two items are close on swing, break the tie in this order: the irreversible before
+the reversible, the cheaper to act on before the dearer.
+
+When the swing sits outside the lawyer's focus, say so in one sentence directly under the
+Frame line. That is
 the most useful sentence this skill writes.
 
 ## Output
@@ -115,6 +122,14 @@ Frame: <goal> · <audience and decision, by when> · <binding constraint>.
 Next: <three actions at most, ordered by swing per hour>   (only when a next step is wanted)
 Set aside: <item> — <why it does not move the decision>.   (one line each)
 ```
+
+Before you send, check the answer against this list and fix any miss:
+
+- [ ] The first line is `Frame:`.
+- [ ] Five ranked items at most and three Next actions at most; anything below the cut is
+      dropped or named under Set aside as below the cut. No other sections unless asked.
+- [ ] Item 1 is the gate, if there is one; with several, the one upstream of the others.
+- [ ] A disputed fact is stated as one side's claim ("Doe says"), never as established.
 
 The ranking is the deliverable: items in swing order, so the crux is always item 1; one
 line per item, and depth only when asked. When the answer spends the whole budget, say in
