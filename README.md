@@ -55,9 +55,11 @@ The other skills are for when you need them.
   does not follow them.
 - **Nothing is deleted.** `file` copies and archives; `dewey` never edits a source; `absorb`
   asks before anything is published.
-- **What leaves your machine.** No skill calls a service of its own, and nothing is retained
-  outside your files. `absorb` and `absorb-process` fetch a URL or clone a repo you name;
-  `absorb` pushes or opens a pull request on your own git remote only after you say yes.
+- **What leaves your machine.** No skill calls a service of its own, and the skills keep
+  nothing outside your files; the conversation itself is handled under your AI tool's own
+  terms. `absorb` and `absorb-process` fetch a URL or clone a repo you name; `absorb`
+  pushes, opens a pull request, or files an issue on your own git remote only after you
+  say yes.
 - **Needs:** Python 3 for `dewey`, `dewey-builder`, and `absorb`'s checks; a POSIX shell for
   `desk`'s check; Node 18+ for `absorb-process`.
   Without a shell, the skills do the same work by hand.
